@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <!-- Background -->
+  <rect width="200" height="50" fill="transparent"/>
+  
+  <!-- Icon: Modern S+T symbol -->
+  <g transform="translate(8, 8)">
+    <!-- S shape -->
+    <path d="M4 6 C4 4 6 2 8 2 L12 2 C16 2 20 6 20 10 C20 14 16 16 14 16 L16 16 C20 16 24 20 24 24 C24 28 20 32 16 32 L8 32 C6 32 4 30 4 28 Z" fill="url(#gradient1)" stroke="none"/>
+    
+    <!-- T shape -->
+    <rect x="28" y="6" width="14" height="3" rx="1.5" fill="#1f2937"/>
+    <rect x="33" y="6" width="3" height="20" rx="1.5" fill="#1f2937"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="60" y="20" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">AsaPhis</text>
+  <text x="60" y="35" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="500" fill="#6b7280" letter-spacing="0.5px">Product of Asaphis</text>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea580c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

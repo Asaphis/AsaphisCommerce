@@ -1,0 +1,32 @@
+{
+  "name": "AsaPhis-ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.17.0 <23.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-3000}",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.28.1",
+    "next": "^15.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^24.1.0",
+    "@types/react": "19.1.9",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
+
